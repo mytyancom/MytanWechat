@@ -138,5 +138,5 @@ flex-direction: row;
 }
 
 .home1{
-  
+  margin-top: 10px;
 }
