@@ -1,0 +1,9 @@
+<template name='header'>
+<view class='head'>
+<view class='headlogo'>
+<image src='../image/header/header-logo.png' style='width:150px;height:40px;'></image>
+</view>
+
+</view>
+</template>
+

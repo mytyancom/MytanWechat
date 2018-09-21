@@ -1,0 +1,35 @@
+<template name='footer'>
+<view class='foot'>
+<view class='footer'>
+<view>
+<image src='../image/footer/footerlogo.png' style='width:100px;height:90px;'></image>
+</view>
+</view>
+<view class='footer'>
+
+<view class='footlist'>
+
+<navigator url="/pages/out/outwechat">
+        <image src='../image/footer/wechat.png' style='width:25px;height:25px;'></image>
+</navigator>
+<view class='footertext'>Wechat</view>
+</view>
+<view class='footlist'>
+<image src='../image/footer/telegram.png' style='width:25px;height:25px;'></image>
+<view class='footertext'>Telegram</view>
+</view>
+<view class='footlist'>
+<image src='../image/footer/github.png' style='width:25px;height:25px;'></image>
+<view class='footertext'>Github</view>
+</view>
+<view class='footlist'>
+<image src='../image/footer/email.png' style='width:25px;height:25px;'></image>
+<view class='footertext'>Email</view>
+</view>
+
+
+</view>
+
+</view>
+
+</template>

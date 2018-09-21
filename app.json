@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/about/about",
+    "pages/contact/contact",
+    "pages/out/outwechat"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Mytan",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/home/home",
+      "text": "Home",
+      "iconPath": "/pages/image/tabBar/home.png",
+      "selectedIconPath": "/pages/image/tabBar/home-s.png"
+    },
+    {
+      "pagePath":"pages/about/about",
+      "text":"About",
+      "iconPath":"/pages/image/tabBar/about.png",
+      "selectedIconPat":"/pages/image/tabBar/about-s.png"
+    },
+    {
+      "pagePath": "pages/contact/contact",
+      "text": "Contact",
+      "iconPath": "/pages/image/tabBar/contact.png",
+      "selectedIconPat": "/pages/image/tabBar/contact-s.png"
+    }
+    ]
+  }
+}

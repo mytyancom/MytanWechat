@@ -1,0 +1,95 @@
+<!--header-->
+
+
+<import src="../template/header.wxml"/>
+<view>
+<template is="header"/>
+</view>
+<view class='home'>
+<!--banner-->
+<view class="swiper-container">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">
+    <block wx:for="{{imgUrls}}" wx:key="unique">
+      <swiper-item>
+        <image src="{{item}}" class="img" bindtap="swipclick" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<!--middle-->
+
+
+<view class='me'>
+
+
+
+<view class='first_card' hover-class='hover-class'>
+    
+      <!--vol标题  -->
+      <view class='first_title_box'>
+       
+      <image src='../image/home/gobal.png' style='width:100px;height:100px;'></image>
+      </view>
+      <!--内容  -->
+      <view class='first_content_box'>
+        <text>全球生态布局</text>
+      </view>
+      <!--作者  -->
+      <view class='first_author_box'>
+        <text>多个国家设立本土化服务中心打造多业务形态为一体的生态圈</text>
+      </view>
+   
+ 
+
+
+
+    
+      <!--vol标题  -->
+      <view class='first_title_box'>
+       
+      <image src='../image/home/sc.png' style='width:100px;height:100px;'></image>
+      </view>
+      <!--内容  -->
+      <view class='first_content_box'>
+        <text>安全可信赖</text>
+      </view>
+      <!--作者  -->
+      <view class='first_author_box'>
+        <text>服务数百万用户,专业分布式架构和防DDOS攻击系统</text>
+      </view>
+   
+
+
+
+
+    
+      <!--vol标题  -->
+      <view class='first_title_box'>
+       
+      <image src='../image/home/me.svg' style='width:100px;height:100px;'></image>
+      </view>
+      <!--内容  -->
+      <view class='first_content_box'>
+        <text>用户至上</text>
+      </view>
+      <!--作者  -->
+      <view class='first_author_box'>
+        <text>建立用户自治社区，保护用户权利,实现互相信任与充分自由</text>
+      </view>
+   
+
+
+
+ 
+
+</view>
+
+</view>
+<!--footer-->
+
+<import src="../template/footer.wxml"/>
+<view>
+<template is="footer"/>
+</view>
+
+</view>
