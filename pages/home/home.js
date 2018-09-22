@@ -6,6 +6,7 @@ Page({
     interval: 3000,
     duration: 800,
     circular: true,
+  
     imgUrls: [
       '../image/banner/banner1.jpg',
       '../image/banner/banner2.jpg',
@@ -37,5 +38,7 @@ Page({
       url: this.data.links[this.data.swiperCurrent]
     })
   }
+
+
 })
 

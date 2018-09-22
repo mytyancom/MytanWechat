@@ -1,18 +1,19 @@
-// pages/about/about.js
+
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    STATUSBAR_HEIGHT: INFO.statusBarHeight
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    TOAST = new weToast(this);
   },
 
   /**
@@ -42,25 +43,29 @@ Page({
   onUnload: function () {
 
   },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
   /**
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
 
+  },
+
+  addPushHandler: function (e) {
+    // vPush.add(e);
+  },
+  goBackHandler: function () {
+    wx.navigateBack({
+
+    })
+  },
+
+  copyHandler: function (e) {
+    var { cp } = e.currentTarget.dataset;
+    wx.setClipboardData({
+      data: cp,
+      success: () => {
+        TOAST.success(cp === 'zzw808' ? '作者微信已复制！' : '网址已经复制到剪贴板！')
+      }
+    });
   }
 })
