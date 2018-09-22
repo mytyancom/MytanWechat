@@ -9,21 +9,27 @@
 
 <view class='footlist'>
 
-<navigator url="/pages/out/outwechat">
+<navigator url="/pages/about/about">
         <image src='../image/footer/wechat.png' style='width:25px;height:25px;'></image>
 </navigator>
 <view class='footertext'>Wechat</view>
 </view>
 <view class='footlist'>
+<navigator url="/pages/contact/contact">
 <image src='../image/footer/telegram.png' style='width:25px;height:25px;'></image>
+</navigator>
 <view class='footertext'>Telegram</view>
 </view>
 <view class='footlist'>
+<navigator url="/pages/contact/contact">
 <image src='../image/footer/github.png' style='width:25px;height:25px;'></image>
+</navigator>
 <view class='footertext'>Github</view>
 </view>
 <view class='footlist'>
+<navigator url="/pages/contact/contact">
 <image src='../image/footer/email.png' style='width:25px;height:25px;'></image>
+</navigator>
 <view class='footertext'>Email</view>
 </view>
 

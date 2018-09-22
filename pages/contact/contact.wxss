@@ -1,0 +1,67 @@
+/* pages/home/home.wxss */
+/* header */
+
+
+.navigator {
+  background-color: #f7f5f5;
+  height: 44px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: row;
+}
+.leftButton {
+  width: 140px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftButton > image {
+  width: 140px;
+  height: 39px;
+}
+.me{
+margin-top: 80px;
+text-align: center;
+flex-direction: row;
+}
+
+/* footer */
+
+.foot{
+ display: flex;
+  background-color: #ccc;
+flex-direction: row;
+}
+.footer{
+ display: flex;
+  width: 50%;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+.footlist{
+  width: 25%;
+  margin-top: 30px;
+  text-align: center;
+
+}
+.bq{
+
+text-align: center;
+
+}
+.footertext{
+font-size: 10px;
+  text-align: center;
+}
+.footerimg{
+  display: flex;
+ 
+  flex-direction: row;
+}

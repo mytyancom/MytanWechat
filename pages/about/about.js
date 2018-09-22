@@ -12,9 +12,7 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-    TOAST = new weToast(this);
-  },
+
 
   /**
    * 生命周期函数--监听页面初次渲染完成
@@ -46,9 +44,7 @@ Page({
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
 
-  },
 
   addPushHandler: function (e) {
     // vPush.add(e);
@@ -57,15 +53,5 @@ Page({
     wx.navigateBack({
 
     })
-  },
-
-  copyHandler: function (e) {
-    var { cp } = e.currentTarget.dataset;
-    wx.setClipboardData({
-      data: cp,
-      success: () => {
-        TOAST.success(cp === 'zzw808' ? '作者微信已复制！' : '网址已经复制到剪贴板！')
-      }
-    });
   }
 })

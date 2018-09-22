@@ -1,0 +1,24 @@
+
+<!--导航栏  -->
+
+    <view class='navigator' style='padding-top:{{STATUSBAR_HEIGHT}}px;'>
+      <!--左边按钮  -->
+      <view class='leftButton' hover-class='hover-class' bindtap='goBackHandler'>
+        <image src='../image/header/header-logo.png'></image>
+      </view>
+
+      <!--右边间隙  -->
+    </view>
+
+
+
+<view class='me'>
+<text>开发中...</text>
+</view>
+
+
+<import src="../template/footer.wxml"/>
+<view>
+<template is="footer"/>
+</view>
+
